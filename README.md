@@ -4,20 +4,23 @@ Project Authors: Dylan Edmonds, Quinn McLaughlin
 **Summary**: 
     The goal of this project is to do as much of an in depth on the craft beer industry as possible. We will be looking at things such as alcohol content by state as well as price and will make explicit visualizations of the exploratory analysis and will be created in R using ggplot or in python using matplotlib and seaborn. Data collection will be done using web scraping tools such as get  and beautifulsoup  using the python programming languages. Modeling will only be done if the questions stated below cannot be answered during exploratory analysis phase and will be created using sklearn.
 Questions:
-    **Descriptive**:
+
+  **Descriptive**:
 * How is alcohol price related to alcohol content?
 * What features determine the overall rating of beer?
 * Does creation region affect price?
 * Does creation region affect rating?
 * How do the comments about a beer on a website correlate to the rating the beer received? E.g. sentiment analysis, etc... ? 
 * Where are sales of a beer the greatest?
+
   **Predictive**:
 * Can we predict the rating of a beer?
 * Can we estimate the price of a beer?
 * Can the alcohol content of a beer be predicted?
 * Can we estimate sales of a season?
 * Can we estimate sales in a region?
-    **Prescriptive** :
+
+  **Prescriptive** :
 * Are there any features a website has left out that could make a difference for a beer?
 * What can be done to improve the rating of beer?
 * What can be done to improve the sales of beer? 
