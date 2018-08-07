@@ -55,10 +55,10 @@ https://untappd.com/api/docs
     All exploratory plots will be created using base matplotlib initial. Otherwise, if there is found to be an informative graph that was created during exploration it will be implemented in seaborn or ggplot2. All descriptive statistics will be created using numpy in python or in R for its formatting explicit capabilities. Informative descriptives found during the exploratory analysis will be noted and mentioned at the end of the study to create reasoning model creation and answer reasoning. 
     
   **Exploratory tools**:
-    * Python
+    + Python
       ..* Pandas 
       ..* Matplotlib
-    * R
+    + R
       ..* Tidyverse  
       ..* Purrr
       ..* Dplyr
