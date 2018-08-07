@@ -36,7 +36,7 @@ Questions:
 4. Model
 5. Interpret/ Validate
 6. Deploy/ implement
-* Data Sources:
+**Data Sources**:
 https://www.kaggle.com/nickhould/craft-cans
 https://www.beeradvocate.com/
 https://untappd.com/api/docs
