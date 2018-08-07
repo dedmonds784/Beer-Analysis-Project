@@ -1,6 +1,7 @@
 # Beer-Analysis-Project
 Craft Beer Analysis
 *Project Authors*: Dylan Edmonds, Quinn McLaughlin
+
 **Summary**: 
     The goal of this project is to do as much of an in depth on the craft beer industry as possible. We will be looking at things such as alcohol content by state as well as price and will make explicit visualizations of the exploratory analysis and will be created in R using ggplot or in python using matplotlib and seaborn. Data collection will be done using web scraping tools such as get  and beautifulsoup  using the python programming languages. Modeling will only be done if the questions stated below cannot be answered during exploratory analysis phase and will be created using sklearn.
 Questions:
@@ -56,15 +57,15 @@ https://untappd.com/api/docs
     
   **Exploratory tools**:
    1. Python
-   ..* Pandas 
-   ..* Matplotlib
+     * Pandas 
+     * Matplotlib
    2. R
-   ..* Tidyverse  
-   ..* Purrr
-   ..* Dplyr
-   ..* Stringr
-   ..* tidyr
-   ..* Ggplot2
+     * Tidyverse  
+     * Purrr
+     * Dplyr
+     * Stringr
+     * tidyr
+     * Ggplot2
         
 **Modeling/ interpretation**:
     Predictive models will only be created for questions that could not be answered during the exploratory analysis phase. All main machine learning will be done in python’s scikitlearn for its speed and convenience. Smaller models for subsetted data can be created in either scikitlearn or in R using caret. If a created model is found to be able and make an accurate prediction the model will then be followed up to be checked for overfitting, or underfitting if the model is underperforming. Similarly, does not appear to be under or overfitting appropriate error measures will be performed to measure the error of the predictions. For example, if the model is trying to predict classifications an AUC-ROC curve will be created. This will help keep a reliable standard for our modeling. Lastly, the training and the testing  data will be created using a 75 - 25 split of the main dataset(s) which is the default setting for scikitlearn’s “train_test_split” function.
