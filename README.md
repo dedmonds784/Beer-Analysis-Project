@@ -1,5 +1,5 @@
 # Beer-Analysis-Project
-Craft Beer Analysis
+
 *Project Authors*: Dylan Edmonds, Quinn McLaughlin
 
 **Summary**: 
@@ -79,12 +79,13 @@ https://untappd.com/api/docs
 
 **Implementation**:
     At the end, the models created will be deployed only if a model is found to have a not be under or over fit and has reasonable accuracy measures. If a model meets this criteria the model will be deployed into a shiny app, or similar interface. The application created will be created to help communicate the exploration of the study and the findings of the models.   
-    **Implementation tools**:
-        * R
+    
+   **Implementation tools**:
+        1. R
           * Shiny
           * Plotly
           * Ggplot2
-        * Python
+        2. Python
           * Bokeh
           * dash
 
