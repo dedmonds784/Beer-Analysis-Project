@@ -55,16 +55,17 @@ https://untappd.com/api/docs
     All exploratory plots will be created using base matplotlib initial. Otherwise, if there is found to be an informative graph that was created during exploration it will be implemented in seaborn or ggplot2. All descriptive statistics will be created using numpy in python or in R for its formatting explicit capabilities. Informative descriptives found during the exploratory analysis will be noted and mentioned at the end of the study to create reasoning model creation and answer reasoning. 
     
   **Exploratory tools**:
-       * Python
-        * Pandas 
-        * Matplotlib
-       * R
-        * Tidyverse  
-        * Purrr
-        * Dplyr
-        * Stringr
-        * tidyr
-        * Ggplot2
+    * Python
+      ..* Pandas 
+      ..* Matplotlib
+    * R
+      ..* Tidyverse  
+      ..* Purrr
+      ..* Dplyr
+      ..* Stringr
+      ..* tidyr
+      ..* Ggplot2
+        
 **Modeling/ interpretation**:
     Predictive models will only be created for questions that could not be answered during the exploratory analysis phase. All main machine learning will be done in python’s scikitlearn for its speed and convenience. Smaller models for subsetted data can be created in either scikitlearn or in R using caret. If a created model is found to be able and make an accurate prediction the model will then be followed up to be checked for overfitting, or underfitting if the model is underperforming. Similarly, does not appear to be under or overfitting appropriate error measures will be performed to measure the error of the predictions. For example, if the model is trying to predict classifications an AUC-ROC curve will be created. This will help keep a reliable standard for our modeling. Lastly, the training and the testing  data will be created using a 75 - 25 split of the main dataset(s) which is the default setting for scikitlearn’s “train_test_split” function.
     **Modeling tools**:
