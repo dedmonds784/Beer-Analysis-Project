@@ -71,10 +71,10 @@ Questions:
     Predictive models will only be created for questions that could not be answered during the exploratory analysis phase. All main machine learning will be done in python’s scikitlearn for its speed and convenience. Smaller models for subsetted data can be created in either scikitlearn or in R using caret. If a created model is found to be able and make an accurate prediction the model will then be followed up to be checked for overfitting, or underfitting if the model is underperforming. Similarly, does not appear to be under or overfitting appropriate error measures will be performed to measure the error of the predictions. For example, if the model is trying to predict classifications an AUC-ROC curve will be created. This will help keep a reliable standard for our modeling. Lastly, the training and the testing  data will be created using a 75 - 25 split of the main dataset(s) which is the default setting for scikitlearn’s “train_test_split” function.
     
    **Modeling tools**:
-        1. Python
-          * scikitlearn
-        1. R
-          * Caret
+    1. Python
+       * scikitlearn
+    2. R
+       * Caret
          
 **Note**: 
     The exploratory analysis and modeling phase are the most likely steps to be intertwined and repeated. If a model discovers a previously unknown relationship, or if a model discovers a non-relationship, we will go back to the exploratory phase to either rephrase the question, or ask a completely new question. 
@@ -83,11 +83,11 @@ Questions:
     At the end, the models created will be deployed only if a model is found to have a not be under or over fit and has reasonable accuracy measures. If a model meets this criteria the model will be deployed into a shiny app, or similar interface. The application created will be created to help communicate the exploration of the study and the findings of the models.   
     
    **Implementation tools**:
-        1. R
-          * Shiny
-          * Plotly
-          * Ggplot2
-        2. Python
-          * Bokeh
-          * dash
+     1. R
+       * Shiny
+       * Plotly
+       * Ggplot2
+     2. Python
+       * Bokeh
+       * dash
 
