@@ -30,16 +30,16 @@ Questions:
 
 **Process**:
     This industry analysis will follow a standard data science pipeline which includes, but is not limited to the following:
-* Collect/ Wrangle
-* Clean
-* Explore
-* Model
-* Interpret/ Validate
-* Deploy/ implement
+1. Collect/ Wrangle
+2. Clean
+3. Explore
+4. Model
+5. Interpret/ Validate
+6. Deploy/ implement
 * Data Sources:
-- https://www.kaggle.com/nickhould/craft-cans
-- https://www.beeradvocate.com/
-- https://untappd.com/api/docs
+https://www.kaggle.com/nickhould/craft-cans
+https://www.beeradvocate.com/
+https://untappd.com/api/docs
      **Scraping tools**:
 * Python
 * beautifulsoup
