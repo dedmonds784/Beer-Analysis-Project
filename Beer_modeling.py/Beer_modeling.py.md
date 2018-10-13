@@ -177,14 +177,6 @@ beer.head()
 If we look at the output above we can see that the values are all integers. We will need to preprocess this data so that it will work in the model. The columns we will have to encode are 'Style', 'brewery', 'state', 'city', 'brewery_new'.
 
 
-```python
-colnames = ['Style', 'brewery', 'state', 'city', 'brewery_new']
-for col in colnames: 
-    mask = ~beer[col].isnull()
-    beer[col][mask] = prp.LabelEncoder().fit_transform(beer[col][mask])
-    beer[col].fillna(0, inplace = True)
-```
-
     /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ipykernel_launcher.py:4: SettingWithCopyWarning: 
     A value is trying to be set on a copy of a slice from a DataFrame
     
@@ -197,7 +189,7 @@ Now lets create our training and testing data.
 
 ```python
 y = beer['Score']
-x = beer[['ABV', 'Style', 'Ratings', 'brewery', 'state', 'city', 'latitude', 'longitude']]
+x = pd.get_dummies(beer[['ABV', 'Style', 'Ratings', 'brewery', 'state', 'city', 'latitude', 'longitude']])
 X_train, X_test, y_train, y_test = train_test_split(x, y, random_state = 0)
 
 X_train_scale = MinMaxScaler().fit_transform(X_train)
